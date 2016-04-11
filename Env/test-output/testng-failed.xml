@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="ie"/>
+  <test name="TestFirefox">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="FinalEnv.Env.NewTest"/>
+      <class name="FinalEnv.Env.NewTest1"/>
+    </classes>
+  </test> <!-- TestFirefox -->
+  <test name="TestChrome">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="FinalEnv.Env.NewTest"/>
+      <class name="FinalEnv.Env.NewTest1"/>
+    </classes>
+  </test> <!-- TestChrome -->
+  <test name="TestIE">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="FinalEnv.Env.NewTest"/>
+      <class name="FinalEnv.Env.NewTest1"/>
+    </classes>
+  </test> <!-- TestIE -->
+</suite> <!-- Failed suite [Suite] -->

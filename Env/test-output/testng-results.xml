@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47778" started-at="2016-04-11T10:23:40Z" finished-at="2016-04-11T10:24:28Z">
+    <groups>
+    </groups>
+    <test name="TestChrome" duration-ms="27937" started-at="2016-04-11T10:23:40Z" finished-at="2016-04-11T10:24:08Z">
+      <class name="FinalEnv.Env.NewTest1">
+        <test-method status="PASS" signature="checkGmailTitle()[pri:0, instance:FinalEnv.Env.NewTest1@4411d970]" name="checkGmailTitle" duration-ms="1887" started-at="2016-04-11T15:54:04Z" finished-at="2016-04-11T15:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGmailTitle -->
+      </class> <!-- FinalEnv.Env.NewTest1 -->
+      <class name="FinalEnv.Env.NewTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:FinalEnv.Env.NewTest@67b64c45]" name="setUp" is-config="true" duration-ms="10500" started-at="2016-04-11T15:53:40Z" finished-at="2016-04-11T15:53:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:FinalEnv.Env.NewTest1@4411d970]" name="setUp" is-config="true" duration-ms="12826" started-at="2016-04-11T15:53:51Z" finished-at="2016-04-11T15:54:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkGoogleTitle()[pri:0, instance:FinalEnv.Env.NewTest@67b64c45]" name="checkGoogleTitle" duration-ms="91" started-at="2016-04-11T15:54:04Z" finished-at="2016-04-11T15:54:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGoogleTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FinalEnv.Env.NewTest@67b64c45]" name="tearDown" is-config="true" duration-ms="1330" started-at="2016-04-11T15:54:06Z" finished-at="2016-04-11T15:54:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FinalEnv.Env.NewTest1@4411d970]" name="tearDown" is-config="true" duration-ms="1274" started-at="2016-04-11T15:54:07Z" finished-at="2016-04-11T15:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FinalEnv.Env.NewTest -->
+    </test> <!-- TestChrome -->
+    <test name="TestIE" duration-ms="46160" started-at="2016-04-11T10:23:40Z" finished-at="2016-04-11T10:24:26Z">
+      <class name="FinalEnv.Env.NewTest1">
+        <test-method status="PASS" signature="checkGmailTitle()[pri:0, instance:FinalEnv.Env.NewTest1@6108b2d7]" name="checkGmailTitle" duration-ms="22466" started-at="2016-04-11T15:54:04Z" finished-at="2016-04-11T15:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGmailTitle -->
+      </class> <!-- FinalEnv.Env.NewTest1 -->
+      <class name="FinalEnv.Env.NewTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:FinalEnv.Env.NewTest@566776ad]" name="setUp" is-config="true" duration-ms="12608" started-at="2016-04-11T15:53:40Z" finished-at="2016-04-11T15:53:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:FinalEnv.Env.NewTest1@6108b2d7]" name="setUp" is-config="true" duration-ms="10775" started-at="2016-04-11T15:53:53Z" finished-at="2016-04-11T15:54:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkGoogleTitle()[pri:0, instance:FinalEnv.Env.NewTest@566776ad]" name="checkGoogleTitle" duration-ms="46" started-at="2016-04-11T15:54:04Z" finished-at="2016-04-11T15:54:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGoogleTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FinalEnv.Env.NewTest@566776ad]" name="tearDown" is-config="true" duration-ms="116" started-at="2016-04-11T15:54:26Z" finished-at="2016-04-11T15:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FinalEnv.Env.NewTest1@6108b2d7]" name="tearDown" is-config="true" duration-ms="129" started-at="2016-04-11T15:54:26Z" finished-at="2016-04-11T15:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FinalEnv.Env.NewTest -->
+    </test> <!-- TestIE -->
+    <test name="TestFirefox" duration-ms="47749" started-at="2016-04-11T10:23:40Z" finished-at="2016-04-11T10:24:28Z">
+      <class name="FinalEnv.Env.NewTest1">
+        <test-method status="PASS" signature="checkGmailTitle()[pri:0, instance:FinalEnv.Env.NewTest1@6e8dacdf]" name="checkGmailTitle" duration-ms="5555" started-at="2016-04-11T15:54:22Z" finished-at="2016-04-11T15:54:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGmailTitle -->
+      </class> <!-- FinalEnv.Env.NewTest1 -->
+      <class name="FinalEnv.Env.NewTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:FinalEnv.Env.NewTest@1e643faf]" name="setUp" is-config="true" duration-ms="16217" started-at="2016-04-11T15:53:40Z" finished-at="2016-04-11T15:53:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:FinalEnv.Env.NewTest1@6e8dacdf]" name="setUp" is-config="true" duration-ms="25794" started-at="2016-04-11T15:53:57Z" finished-at="2016-04-11T15:54:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkGoogleTitle()[pri:0, instance:FinalEnv.Env.NewTest@1e643faf]" name="checkGoogleTitle" duration-ms="83" started-at="2016-04-11T15:54:22Z" finished-at="2016-04-11T15:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGoogleTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FinalEnv.Env.NewTest@1e643faf]" name="tearDown" is-config="true" duration-ms="28" started-at="2016-04-11T15:54:28Z" finished-at="2016-04-11T15:54:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FinalEnv.Env.NewTest1@6e8dacdf]" name="tearDown" is-config="true" duration-ms="67" started-at="2016-04-11T15:54:28Z" finished-at="2016-04-11T15:54:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FinalEnv.Env.NewTest -->
+    </test> <!-- TestFirefox -->
+  </suite> <!-- Suite -->
+</testng-results>
